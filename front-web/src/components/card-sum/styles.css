@@ -1,0 +1,23 @@
+.card-sum-container {
+  padding-top: 40px;
+  padding-left: 30px;
+  width: 100%;
+}
+
+.card-sum-container h1 {
+  color: #334ac3;
+  font-weight: bolder;
+}
+
+.card-sum-container h3 {
+  color: #8d8d8d;
+}
+
+@media (min-width: 992px) {
+  .card-sum-container {
+    width: 445px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+}
